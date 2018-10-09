@@ -10,7 +10,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "postbuild": "mv build ../prod",
+    "postbuild": "mv build/* ../prod && rm -rf build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
