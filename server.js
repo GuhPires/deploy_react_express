@@ -9,10 +9,10 @@ app.get('/api', (req, res) => {
 
 // If the app is in Production
 if (process.env.NODE_ENV === "production") {
-    app.use(express.static(__dirname + "../"));
+    app.use(express.static(__dirname + "/public"));
 
     // Handling SPA
-    app.get(/.*/, (req, res) => res.sendFile(__dirname + '../index.html'));
+    app.get(/.*/, (req, res) => res.sendFile(__dirname + '/public/index.html'));
 }
 
 // console.log that your server is up and running

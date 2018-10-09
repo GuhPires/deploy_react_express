@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
-    "build": "rm -rf prod && mkdir prod && mkdir prod/server && cp package-lock.json package.json prod && cp server.js prod/server && cd client && npm run build"
+    "build": "rm -rf prod && mkdir prod prod/public && cp package-lock.json package.json server.js prod && cd client && npm run build"
   },
   "repository": {
     "type": "git",
