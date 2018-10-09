@@ -1,0 +1,23 @@
+{
+  "name": "deploy_react_express",
+  "version": "1.0.0",
+  "description": "Simple React App with Express",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GuhPires/deploy_react_express.git"
+  },
+  "author": "GuhPires",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GuhPires/deploy_react_express/issues"
+  },
+  "homepage": "https://github.com/GuhPires/deploy_react_express#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
